@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monte sua proteção | Aradsat Rastreamento</title>
+  <meta name="description" content="Responda cinco perguntas, veja a proteção recomendada para o seu veículo e envie para a Aradsat pelo WhatsApp.">
+  <meta name="theme-color" content="#0B121A">
+  <meta property="og:title" content="Monte sua proteção | Aradsat Rastreamento">
+  <meta property="og:description" content="Responda cinco perguntas, veja a proteção recomendada para o seu veículo e envie para a Aradsat pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="https://www.aradsat.com.br/assets/img/emblema-aradsat.jpg">
+  <link rel="icon" href="assets/img/icone.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo-marca" src="assets/img/logo-aradsat.jpg" alt="Aradsat Rastreamento" width="600" height="106">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#noite">Como funciona</a></li>
+          <li class="nav-item"><a class="nav-link" href="satcam.html">SAT CAM</a></li>
+          <li class="nav-item"><a class="nav-link" href="cerca-eletronica.html">Cerca eletrônica</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#app">O app</a></li>
+          <li class="nav-item"><a class="nav-link" href="#central">Contato</a></li>
+        </ul>
+        <a class="btn btn-alerta ms-lg-4" href="orcamento.html" aria-current="page">
+          <i class="bi bi-sliders"></i> Monte sua proteção
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="conteudo">
+  <section class="pagina-topo topo-orcamento pagina-topo-curta">
+    <div class="container">
+      <p class="pagina-trilha"><a href="index.html">Início</a> <i class="bi bi-chevron-right"></i> Monte sua proteção</p>
+      <h1>Monte sua proteção</h1>
+      <p class="lead">Cinco perguntas rápidas. No fim, você vê o que recomendamos para o seu caso e manda tudo para a Aradsat pelo WhatsApp, sem preencher cadastro.</p>
+    </div>
+  </section>
+
+  <section class="montador" aria-label="Questionário">
+    <div class="container">
+      <div class="montador-grade">
+        <form class="questionario" data-questionario novalidate>
+          <div class="progresso" aria-hidden="true">
+            <span class="progresso-barra" data-progresso></span>
+          </div>
+          <p class="etapa-contador" data-contador>Pergunta 1 de 5</p>
+
+          <fieldset class="etapa" data-etapa="1">
+            <legend>O que você quer proteger?</legend>
+            <div class="opcoes">
+              <label class="opcao"><input type="radio" name="veiculo" value="Carro" required><i class="bi bi-car-front"></i><span>Carro</span></label>
+              <label class="opcao"><input type="radio" name="veiculo" value="Moto"><i class="bi bi-bicycle"></i><span>Moto</span></label>
+              <label class="opcao"><input type="radio" name="veiculo" value="Caminhão ou carreta"><i class="bi bi-truck"></i><span>Caminhão ou carreta</span></label>
+              <label class="opcao"><input type="radio" name="veiculo" value="Máquina pesada"><i class="bi bi-cone-striped"></i><span>Máquina pesada</span></label>
+              <label class="opcao"><input type="radio" name="veiculo" value="Vários tipos"><i class="bi bi-grid-3x3-gap"></i><span>Vários tipos</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="etapa" data-etapa="2" hidden>
+            <legend>Quantos veículos?</legend>
+            <div class="opcoes">
+              <label class="opcao"><input type="radio" name="quantidade" value="1" required><span class="opcao-numero">1</span><span>Só um</span></label>
+              <label class="opcao"><input type="radio" name="quantidade" value="2 a 5"><span class="opcao-numero">2–5</span><span>Poucos</span></label>
+              <label class="opcao"><input type="radio" name="quantidade" value="6 a 20"><span class="opcao-numero">6–20</span><span>Uma frota</span></label>
+              <label class="opcao"><input type="radio" name="quantidade" value="Mais de 20"><span class="opcao-numero">20+</span><span>Frota grande</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="etapa" data-etapa="3" hidden>
+            <legend>Onde ele roda mais?</legend>
+            <div class="opcoes">
+              <label class="opcao"><input type="radio" name="uso" value="Cidade" required><i class="bi bi-buildings"></i><span>Cidade</span></label>
+              <label class="opcao"><input type="radio" name="uso" value="Estrada"><i class="bi bi-sign-turn-right"></i><span>Estrada</span></label>
+              <label class="opcao"><input type="radio" name="uso" value="Campo ou obra"><i class="bi bi-tree"></i><span>Campo ou obra</span></label>
+              <label class="opcao"><input type="radio" name="uso" value="Um pouco de tudo"><i class="bi bi-shuffle"></i><span>Um pouco de tudo</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="etapa" data-etapa="4" hidden>
+            <legend>O que mais preocupa você?</legend>
+            <p class="etapa-ajuda">Pode marcar mais de uma.</p>
+            <div class="opcoes">
+              <label class="opcao"><input type="checkbox" name="preocupacao" value="roubo"><i class="bi bi-shield-exclamation"></i><span>Roubo e furto</span></label>
+              <label class="opcao"><input type="checkbox" name="preocupacao" value="fadiga"><i class="bi bi-moon"></i><span>Motorista cansado ou distraído</span></label>
+              <label class="opcao"><input type="checkbox" name="preocupacao" value="custo"><i class="bi bi-fuel-pump"></i><span>Gasto com combustível e manutenção</span></label>
+              <label class="opcao"><input type="checkbox" name="preocupacao" value="horario"><i class="bi bi-clock-history"></i><span>Uso fora do horário</span></label>
+              <label class="opcao"><input type="checkbox" name="preocupacao" value="trajeto"><i class="bi bi-signpost-split"></i><span>Saber por onde andou</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="etapa" data-etapa="5" hidden>
+            <legend>Para quem é a proposta?</legend>
+            <p class="etapa-ajuda">Opcional. Ajuda a Aradsat a atender você mais rápido.</p>
+            <div class="campos">
+              <label class="campo">
+                <span>Seu nome</span>
+                <input class="form-control" type="text" name="nome" autocomplete="name">
+              </label>
+              <label class="campo">
+                <span>Cidade</span>
+                <input class="form-control" type="text" name="cidade" autocomplete="address-level2">
+              </label>
+            </div>
+          </fieldset>
+
+          <p class="etapa-erro" data-aviso role="alert"></p>
+
+          <div class="etapa-acoes">
+            <button class="btn btn-sinal" type="button" data-voltar hidden><i class="bi bi-arrow-left"></i> Voltar</button>
+            <button class="btn btn-alerta" type="button" data-avancar>Continuar</button>
+            <button class="btn btn-alerta" type="submit" data-concluir hidden>Ver minha proteção</button>
+          </div>
+        </form>
+
+        <aside class="ficha-viva" data-ficha aria-live="polite">
+          <p class="ficha-viva-titulo">Sua proteção</p>
+          <dl class="ficha-respostas">
+            <div><dt>Veículo</dt><dd data-resumo="veiculo">a definir</dd></div>
+            <div><dt>Quantidade</dt><dd data-resumo="quantidade">a definir</dd></div>
+            <div><dt>Uso</dt><dd data-resumo="uso">a definir</dd></div>
+          </dl>
+          <ul class="ficha-recursos" data-recursos></ul>
+        </aside>
+      </div>
+
+      <div class="resultado" data-resultado hidden tabindex="-1">
+        <h2>Recomendado para você</h2>
+        <p data-resultado-resumo></p>
+        <ul class="resultado-lista" data-resultado-lista></ul>
+        <div class="chamada-acoes">
+          <a class="btn btn-alerta btn-lg" data-enviar href="#" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> Enviar para a Aradsat</a>
+          <button class="btn btn-sinal btn-lg" type="button" data-refazer><i class="bi bi-arrow-counterclockwise"></i> Refazer</button>
+        </div>
+        <p class="resultado-nota">Sem compromisso. A Aradsat responde com a proposta e os valores para o seu caso.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="central" id="central">
+  <div class="container">
+    <div class="central-topo">
+      <div>
+        <p class="central-chamada">Fale com a Aradsat</p>
+        <a class="central-numero" href="https://wa.me/5517997221920?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20rastreamento." target="_blank" rel="noopener">(17) 99722-1920</a>
+      </div>
+      <img class="central-emblema" src="assets/img/emblema-aradsat.jpg" alt="Emblema Aradsat Rastreamento" width="640" height="643" loading="lazy">
+    </div>
+    <div class="row g-4 g-lg-5 central-dados">
+      <div class="col-md-4">
+        <h2>Atendimento</h2>
+        <ul>
+          <li><a href="https://wa.me/5517997221920?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20rastreamento." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> (17) 99722-1920</a></li>
+          <li><a href="tel:+551734268699"><i class="bi bi-telephone"></i> (17) 3426-8699</a></li>
+          <li><a href="mailto:contato@aradsat.com.br"><i class="bi bi-envelope"></i> contato@aradsat.com.br</a></li>
+          <li><span><i class="bi bi-clock"></i> Segunda a sexta, 07:30 às 17:30</span></li>
+          <li><span><i class="bi bi-shield-plus"></i> Sábado e domingo: plantão pelo WhatsApp para desbloqueio, apoio e socorro</span></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Sede</h2>
+        <ul>
+          <li>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Jos%C3%A9%20Mar%C3%A3o%20Filho%2C%2011012%2C%20Votuporanga%20SP" target="_blank" rel="noopener">
+              <i class="bi bi-geo-alt"></i> Av. José Marão Filho, 11012<br>Polo Comercial Industrial<br>Votuporanga/SP, CEP 15502-045
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Redes</h2>
+        <ul>
+          <li><a href="https://www.instagram.com/aradsat_rastreamento/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> @aradsat_rastreamento</a></li>
+          <li><a href="https://www.facebook.com/aradsat/" target="_blank" rel="noopener"><i class="bi bi-facebook"></i> Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="central-fim">
+      <img class="logo-marca" src="assets/img/logo-aradsat.jpg" alt="Aradsat" width="600" height="106" loading="lazy">
+      <span>© <span data-ano>2026</span> Aradsat Rastreamento</span>
+    </div>
+  </div>
+</footer>
+
+<a class="zap-flutuante" href="https://wa.me/5517997221920?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20rastreamento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/orcamento.js"></script>
+</body>
+</html>
